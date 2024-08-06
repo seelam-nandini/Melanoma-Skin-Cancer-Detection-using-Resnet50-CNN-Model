@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="page-heading">Welcome to Melanoma Skin Cancer Detection Application</h2>
+
+<div class="main-container">
+    <div class="info-section">
+        <p>Hello, I am Seelam Nandini. I have developed this application using the ResNet50 model, which employs sophisticated deep learning techniques to deliver precise results in identifying melanoma skin cancer.This tool is designed to assist in the early detection of melanoma skin cancer by analyzing images of skin lesions.</p>
+        <p>Take the first step towards early cancer detection and empower yourself with proactive care.</p>
+
+        <p>To use the application,</p>
+        <ol>
+            <li>Click on the <b>"Choose Skin Lesion"</b> button to upload an image of the skin lesion.</li>
+            <li>After the image is uploaded, click on the <b>"Predict"</b> button to determine the likelihood of the presence of melanoma skin cancer.</li>
+        </ol>    
+    </div>
+    <div class="upload-section">
+        <form id="upload-file" method="post" enctype="multipart/form-data">
+            <label for="imageUpload" class="upload-label">
+                Choose Skin Lesion
+            </label>
+            <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            <button type="button" class="btn btn-predict" id="btn-predict">Predict !</button>
+        </form>
+        <div class="image-section" style="display:none;">
+            <div class="img-preview">
+                <div id="imagePreview">
+                </div>
+            </div>
+        </div>
+        <!-- Result Section Moved Here -->
+        <h3 id="result" class="result-text">
+            <span> </span>
+        </h3>
+        <div class="loader" style="display:none;"></div>
+    </div>
+    <div class="loader-bouncing-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>   
+{% endblock %}
