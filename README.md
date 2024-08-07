@@ -39,4 +39,4 @@ The melanoma skin cancer detection model has been deployed using Flask, a lightw
 - Open your web browser and navigate to http://localhost:5000 to interact with the deployed model.
 - Below is a screenshot of the Flask application interface, which allows users to upload skin lesion images for melanoma detection.
 
-<img width="955" alt="flask app image" src="https://github.com/user-attachments/assets/efa01461-4e74-4675-8a92-c77296802c80">
+<img width="955" alt="flask app image" src="https://github.com/user-attachments/assets/21f8216e-d85f-48a5-ac09-3260b272bfa0">
