@@ -29,7 +29,7 @@ The performance of the ResNet50 model in the melanoma skin cancer detection proj
 
 These metrics were calculated to assess and compare ResNet50’s performance against other models like VGG16, InceptionV3, and MobileNetV2. This evaluation ensures that ResNet50’s superior accuracy and balanced performance are well-documented, highlighting its effectiveness and reliability in real-world melanoma detection scenarios.
 
-# Deployment with Flask
+## Deployment with Flask
 The melanoma skin cancer detection model has been deployed using Flask, a lightweight WSGI web application framework. The Flask application provides a user-friendly web interface where users can upload skin lesion images and receive real-time predictions from the ResNet50 model.
 
 **Accessing the Flask Application:** 
