@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/d2ff926a-87a9-4f98-ae8e-90c2a03289f0
 
 If you would like to use this melanoma skin cancer detection using ResNet50 Model project, follow these steps to clone the repository and get it running on your local machine:
 
-Make sure to download the dataset from Kaggle : https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset and place it in the appropriate directory as specified in the project documentation.
+Make sure to download the dataset from Kaggle : https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset and place it in the appropriate directory.
 
 1. Open your terminal or command prompt.
 2. Install Dependencies:
