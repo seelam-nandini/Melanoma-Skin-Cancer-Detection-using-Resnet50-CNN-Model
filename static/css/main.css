@@ -32,6 +32,8 @@ main {
     justify-content: space-between; 
     align-items: flex-start; 
     margin-top: 0.3em;
+    gap: 1em;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 .info-section {
     flex: 1; 
@@ -92,9 +94,6 @@ main {
     font-size: 1.1em; 
     text-align: center;
     color: #333;
-}
-main {
-    flex: 1;
 }
 .btn-source-code {
     border: 2px solid #ffffff; 
@@ -185,4 +184,20 @@ input[type="file"] {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        gap: 1em; /* Space between the stacked elements */
+    }
+    .info-section, .upload-section {
+        width: 100%; /* Ensure full width for mobile view */
+        padding: 0;
+    }
+    .upload-section {
+        margin-top: 1em;
+    }
+}
+
 
