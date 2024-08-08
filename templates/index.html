@@ -5,13 +5,14 @@
 
 <div class="main-container">
     <div class="info-section">
-        <p>Hello, I am Seelam Nandini. I have developed this application using the ResNet50 model, which employs sophisticated deep learning techniques to deliver precise results in identifying melanoma skin cancer.</p>
+        <p>This application utilizes the ResNet50 model, a deep learning framework, to deliver precise and reliable melanoma skin cancer detection. 
+            By leveraging the latest AI technology, it ensures you receive accurate results that aid in effective health management.</p>
         <p>Take the first step towards early cancer detection and empower yourself with proactive care.</p>
 
         <p>To use the application,</p>
-        <ol>
+        <ol style="font-size: 1.1em; line-height: 1.5;">
             <li>Click on the <b>"Upload Skin Lesion"</b> button to upload an image of the skin lesion.</li>
-            <li>After the image is uploaded, click on the <b>"Predict"</b> button to determine the likelihood of the presence of melanoma skin cancer.</li>
+            <li>After the image is uploaded, click on the <b>"Predict"</b> button to determine the likelihood of melanoma skin cancer.</li>
         </ol>    
     </div>
     <div class="upload-section">
@@ -22,6 +23,7 @@
             <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
             <button type="button" class="btn btn-predict" id="btn-predict">Predict !</button>
         </form>
+        <div id="message" style="color: red; font-weight: bold; margin-top: 10px;"></div>
         <div class="image-section" style="display:none;">
             <div class="img-preview">
                 <div id="imagePreview">
@@ -40,5 +42,7 @@
         <div class="dot"></div>
     </div>   
 {% endblock %}
+
+
 
 
