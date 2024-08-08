@@ -14,7 +14,9 @@ The model’s deep residual learning architecture effectively addresses the vani
 - **Comparative Analysis**: Includes performance evaluations of VGG16, InceptionV3, and MobileNetV2 to benchmark ResNet50.
 
 ## Data Processing and Model Optimization
-- **Data Set**: Utilized a comprehensive dataset from Kaggle, featuring 10,000 diverse images of skin lesions, to ensure extensive coverage of various melanoma types and conditions. The dataset is available at: https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset
+- **Data Set**: Utilized a comprehensive dataset from Kaggle, featuring 10,000 diverse images of skin lesions, to ensure extensive coverage of various melanoma types and conditions.
+
+The dataset is available at: https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset
 - **Data Preprocessing**:
   - **Image Resizing**: 
      Resized all images to a standard dimension of 224x224 pixels to ensure uniform input size for the ResNet50 model.
@@ -37,6 +39,44 @@ The melanoma skin cancer detection model has been deployed using Flask, a lightw
   ```bash
   python app.py
 - Open your web browser and navigate to http://localhost:5000 to interact with the deployed model.
-- Below is a screenshot of the Flask application interface, which allows users to upload skin lesion images for melanoma detection.
 
-<img width="955" alt="flask app image" src="https://github.com/user-attachments/assets/21f8216e-d85f-48a5-ac09-3260b272bfa0">
+Below is a screenshot of the Flask application interface, which allows users to upload skin lesion images for melanoma detection.
+
+<img width="953" alt="flask app image" src="https://github.com/user-attachments/assets/5b7ed454-1fec-48e1-b3e7-729d8a87dc30">
+<p style="margin-bottom: 20px;"></p>
+
+**Demo of the Flask Application**:
+
+https://github.com/user-attachments/assets/d2ff926a-87a9-4f98-ae8e-90c2a03289f0
+
+
+## Steps to clone and setup this project
+
+If you would like to use this melanoma skin cancer detection using ResNet50 Model project, follow these steps to clone the repository and get it running on your local machine:
+
+Make sure to download the dataset from Kaggle : https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset and place it in the appropriate directory.
+
+1. Open your terminal or command prompt.
+2. Install Dependencies:
+   - Ensure you have Python and pip installed.
+   - Install the required packages using pip:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. Run the following command to clone the repository:
+    ```bash
+    git clone https://github.com/seelam-nandini/Melanoma-Skin-Cancer-Detection-using-Resnet50-CNN-Model.git
+    ```
+
+4. Navigate to the project directory:
+    ```bash
+    cd Melanoma-Skin-Cancer-Detection-using-Resnet50-CNN-Model
+    ```
+
+5. Run the application to start the Flask server:
+     ```bash
+     python app.py
+     ```
+
+6. Open your web browser and navigate to `http://localhost:5000` to interact with the developed flask application to detect melanoma skin cancer.
