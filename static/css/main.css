@@ -63,11 +63,12 @@ main {
     padding: 10px 10px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     border-radius: 4px;
+    cursor: pointer;
 }
 .upload-label:hover {
-    background-color: #000000;
-    color: #fff;
-    border-color: #1B1212;
+    background-color: #000000 !important;
+    color: #fff !important;
+    border-color: #1B1212 !important;
 }
 .btn-predict {
     border: 2px solid #ffffff;
@@ -75,7 +76,7 @@ main {
     font-size: 1em;
     font-weight: bold;
     background-color: #000000;
-    padding: 10px 20px;
+    padding: 10px 10px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     border-radius: 4px;
 }
@@ -245,4 +246,5 @@ input[type="file"] {
         margin-right: auto;
     }
 }
+
 
