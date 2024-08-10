@@ -48,35 +48,3 @@ Below is a screenshot of the Flask application interface, which allows users to 
 **Demo of the Flask Application**:
 
 https://github.com/user-attachments/assets/d2ff926a-87a9-4f98-ae8e-90c2a03289f0
-
-
-## Steps to clone and setup this project
-
-If you would like to use this melanoma skin cancer detection using ResNet50 Model project, follow these steps to clone the repository and get it running on your local machine:
-
-Make sure to download the dataset from Kaggle : https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images/data?select=melanoma_cancer_dataset and place it in the appropriate directory.
-
-1. Open your terminal or command prompt.
-2. Install Dependencies:
-   - Ensure you have Python and pip installed.
-   - Install the required packages using pip:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-3. Run the following command to clone the repository:
-    ```bash
-    git clone https://github.com/seelam-nandini/Melanoma-Skin-Cancer-Detection-using-Resnet50-CNN-Model.git
-    ```
-
-4. Navigate to the project directory:
-    ```bash
-    cd Melanoma-Skin-Cancer-Detection-using-Resnet50-CNN-Model
-    ```
-
-5. Run the application to start the Flask server:
-     ```bash
-     python app.py
-     ```
-
-6. Open your web browser and navigate to `http://localhost:5000` to interact with the developed flask application to detect melanoma skin cancer.
