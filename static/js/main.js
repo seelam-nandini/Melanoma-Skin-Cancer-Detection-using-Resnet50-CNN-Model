@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
-    $('#message').hide(); // Hide message initially
+    $('#message').hide();  // Hide message initially
     
     function readURL(input) {
         if (input.files && input.files[0]) {
